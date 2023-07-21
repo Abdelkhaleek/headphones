@@ -129,3 +129,27 @@ a:active {
   text-align: center;
   padding: 1rem;
 }
+/* Contact Section */
+#contact {
+  display: flex;
+  position: relative;
+}
+#contact .contact-form,
+#contact .map {
+  flex: 1;
+  flex-basis: 50%;
+}
+
+#contact .contact-form .group-input {
+  margin: 0.75rem;
+  display: block;
+}
+#contact .group-input label {
+  display: block;
+}
+
+#contact .group-input input,
+#contact .group-input textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
