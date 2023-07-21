@@ -1,0 +1,131 @@
+@import url(fonts/holberton_school-icon.svg);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Sans Pro";
+}
+.container {
+  background: var(--color-grey) url("images/headphones_hero_1.jpg") no-repeat
+    center center/cover;
+}
+a {
+  text-decoration: none;
+}
+
+/* @media screen and (max-width: 480px) {
+} */
+
+/* Variables */
+:root {
+  --color-grey: #979797;
+  --color-white: #fff;
+  --primary-color: #ff6565;
+  --small-padding: 1rem;
+  --small-left-right-margin: 0 0.25rem;
+  --font-size-small: 0.5rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 3rem;
+}
+/* heading */
+
+.heading {
+  font-size: var(--font-size-large);
+  margin-bottom: 0.75;
+  line-height: 1.1;
+}
+/* pargraphs */
+.head-p {
+  font-size: var(--font-size-medium);
+  margin-bottom: 2rem;
+}
+
+.showcase-p {
+  margin: 4rem;
+  text-align: center;
+}
+/* Button */
+
+.btn {
+  display: inline-block;
+  color: var(--color-white);
+  background: var(--primary-color);
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn:active {
+  opacity: 0.9;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  /* background: var(--color-grey); */
+  color: var(--color-white);
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar ul li a {
+  color: var(--color-white);
+  padding: var(--small-padding);
+  margin: var(--small-left-right-margin);
+}
+a:hover {
+  background: var(--primary-color);
+}
+
+a:active {
+  background: var(--primary-color);
+}
+/* showcase */
+.showcase {
+  height: 100vh;
+  color: var(--color-white);
+}
+
+.showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+}
+/* section what we do  */
+.what {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+.what h2 {
+  margin: 4rem;
+}
+.what p {
+  margin: 3rem;
+}
+.items {
+  display: flex;
+  margin: var(--small-left-right-margin);
+  text-align: center;
+  padding: 1rem;
+}
